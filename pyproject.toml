@@ -1,0 +1,11 @@
+[project]
+name = "mailqueue"
+version = "0.1.0"
+description = "Reliable email notification service"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.156.8",
+    "pydantic==2.14.1",
+    "pydantic-settings==2.16.1",
+    "uvicorn[standard]==0.54.0",
+]
